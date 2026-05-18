@@ -1,5 +1,20 @@
 # CC-VM
 
+```text
+Create two VM while creating them Specify Virtual Hardisk(Last option)
+then browse -> Add -> Downloaded vmdk(ubuntu wali)
+Similarly, do with other VM..now both VM created
+Now make new NATNetwork put both VMs into sam NATNetwork
+
+```
+# Commands to perform on both VMs:
+
+```bash
+sudo apt install net-tools
+sudo apt update
+```
+---
+
 # C4 — Procedure to Transfer Two Text Files from One Virtual Machine to Another Virtual Machine
 
 ## Step 1 — Create Text Files in VM1
